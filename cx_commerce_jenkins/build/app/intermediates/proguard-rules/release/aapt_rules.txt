@@ -1,0 +1,6 @@
+# Referenced at D:\DecorBazzarApp\jenkinsapp\cx_commerce_jenkins\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:19
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at D:\DecorBazzarApp\jenkinsapp\cx_commerce_jenkins\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:24
+-keep class com.strikerapps.cx_commerce_jenkins.MainActivity { <init>(); }
+# Referenced at D:\DecorBazzarApp\jenkinsapp\cx_commerce_jenkins\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:19
+-keep class io.flutter.app.FlutterApplication { <init>(); }
