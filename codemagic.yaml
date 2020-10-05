@@ -10,9 +10,9 @@ workflows:
       xcode: latest
       cocoapods: default
     scripts:
-      - cd . && flutter packages pub get
+      - cd cx_commerce_jenkins && flutter packages pub get
       - find . -name "Podfile" -execdir pod install \;
-      - cd . && flutter build ios --debug --no-codesign
+      - cd cx_commerce_jenkins && flutter build ios --debug --no-codesign
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
