@@ -6,8 +6,8 @@ workflows:
         name: iOS App
         environment:
             vars:
-                XCODE_WORKSPACE: "ios/Runner.xcworkspace"
-                XCODE_SCHEME: "ios/Runner.xcodeproj"
+                XCODE_WORKSPACE: "cx_commerce_jenkins/ios/Runner.xcworkspace"
+                XCODE_SCHEME: "cx_commerce_jenkins/ios/Runner.xcodeproj"
             xcode: latest
             cocoapods: default
         scripts:
