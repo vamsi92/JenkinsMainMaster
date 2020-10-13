@@ -81,7 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     TextStyle headingStyle = TextStyle(
         fontWeight: FontWeight.bold,
-        fontSize: 30,
+        fontSize: 25,
         color: Colors.blueGrey); //Theme.of(context).textTheme.headline4;
     return Scaffold(
       appBar: AppBar(

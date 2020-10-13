@@ -45,7 +45,9 @@ class JenkinsDataFetcher {
                 data["displayName"], lastBuildData["url"],
                 lastBuildData["result"],
                 failCount, pipelineNumber,jenkinsUrl);
+            print(jData);
             return jData;
+
           }else{
 
           }

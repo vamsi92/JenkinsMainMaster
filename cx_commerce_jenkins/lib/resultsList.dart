@@ -35,6 +35,7 @@ class _MyResultsListPageState extends State<MyResultsListPage> {
 
   _MyResultsListPageState(this.appBarTitle, this.output);
 
+
   @override
   Widget build(BuildContext context) {
     TextStyle headingStyle = Theme.of(context).textTheme.bodyText1;

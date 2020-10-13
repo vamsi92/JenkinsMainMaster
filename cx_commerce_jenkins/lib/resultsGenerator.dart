@@ -112,7 +112,7 @@ class _MyResultsPageState extends State<MyResultsPage> {
                                 child: Center(
                                     child: Text(
                                   "Agent Master",
-                                  textScaleFactor: 1.5,
+                                  textScaleFactor: 1,
                                 )),
                                 onPressed: _getAllAgentMasterJobs,
                               ),
@@ -137,7 +137,7 @@ class _MyResultsPageState extends State<MyResultsPage> {
                                 child: Center(
                                     child: Text(
                                   "Agent Main",
-                                  textScaleFactor: 1.5,
+                                  textScaleFactor: 1,
                                 )),
                                 onPressed: _getAllAgentMainJobs,
                               ),
@@ -166,7 +166,7 @@ class _MyResultsPageState extends State<MyResultsPage> {
                                 child: Center(
                                     child: Text(
                                   "Store Master",
-                                  textScaleFactor: 1.5,
+                                  textScaleFactor: 1,
                                 )),
                                 onPressed: _getAllStoreMasterJobs,
                               ),
@@ -191,7 +191,7 @@ class _MyResultsPageState extends State<MyResultsPage> {
                                 child: Center(
                                     child: Text(
                                   "Store Main",
-                                  textScaleFactor: 1.5,
+                                  textScaleFactor: 1,
                                 )),
                                 onPressed: _getAllStoreMainJobs,
                               ),
